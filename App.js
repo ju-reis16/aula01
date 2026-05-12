@@ -76,9 +76,38 @@ const styles = StyleSheet.create({
   card:{
     width: '100%',
     maxWidth:400,
-    backgroundColor: #4444 //Card um pouco mais claro que o fundo
+    backgroundColor: '#4444', //Card um pouco mais claro que o fundo
     borderRadius: 12,
     padding:24,
     shadowColor:'#000',
-  }
-)
+      width:0,
+      height:2,
+  },
+    shadowOpacity:0.25,
+    shadowRadius: 4,
+    elevation:5,
+title:{
+  fontSize: 28,
+  fontWeight: 'bold',
+  color: WHITE, //Texto branco
+  TextAlign: 'center',
+  marginBottom: 8,
+},
+subtitle: {
+  fontSize: 16,
+  color: SENAI_LIGHT_GRAY, //Texto cinza claro
+  textAlign: 'center',
+  marginBottom: 32,
+},
+label:{
+  fontSize: 14,
+  fontWeight: '600',
+  color: SENAI_LIGHT_GRAY, //Texto cinza claro
+  merginBottom: 8,
+},
+input: {
+  width: '100%',
+  height:50,
+},
+
+})
