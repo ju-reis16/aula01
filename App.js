@@ -128,7 +128,7 @@ loginButton: {
   height: 50,
   backgroundColor: SENAI_RED,
   borderRadius: 8,
-  justifyContent: 'center,'
+  justifyContent: 'center',
   alignItems: 'center',
 },
 loginButtonText: {
