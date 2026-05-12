@@ -132,6 +132,9 @@ loginButton: {
   alignItems: 'center',
 },
 loginButtonText: {
-  
-}
-})
+  color: WHITE,
+  fontSize: 16,
+  fontWeight: 'bold',
+},
+});
+//Fim
