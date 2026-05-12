@@ -108,6 +108,30 @@ label:{
 input: {
   width: '100%',
   height:50,
+  backgroundColor: SENAI_DARK_GRAY, //Input escuro
+  borderRadius: 8,
+  paddingHorizontal: 16,
+  fontSize: 16,
+  marginBottom: 16,
+  borderWidth: 1,
+  borderColor: SENAI_MEDIUM_GRAY, //Borda cinza
+  color: WHITE, //Texto do input branco
 },
-
+forgotPassword:{
+  fontSize: 14,
+  color: SENAI_RED,
+  textAlign: 'right',
+  marginBottom: 24,
+},
+loginButton: {
+  width: '100%',
+  height: 50,
+  backgroundColor: SENAI_RED,
+  borderRadius: 8,
+  justifyContent: 'center,'
+  alignItems: 'center',
+},
+loginButtonText: {
+  
+}
 })
